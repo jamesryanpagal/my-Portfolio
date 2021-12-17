@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  position: relative;
+  background: #b15eba;
+  background: linear-gradient(50deg, #b15eba 20%, #ffa1a1 100%);
+}
+
+/* ACTIONS CONTAINER */
+.App .actions {
+  position: fixed;
+  top: 96%;
+  left: 98%;
+  height: 50px;
+  width: 50px;
+  transform: translate(-50%, -50%);
+  border: transparent solid;
+}
+
+/* ACTIONS OPTION CONTAINER */
+.App .actions .actionsOption_Container {
+  position: absolute;
+  top: -130%;
+  left: -60%;
+  transform: translate(-50%, -50%);
+  width: 10vw;
+}
+
+/* ACTIONS OPTION BUTTON */
+.App .actions .actionsOption_Container button {
+  height: 100%;
+  width: 100%;
+  padding: 5px 0;
+  background: rgba(255, 255, 255, 50%);
+  border: none;
+  margin: 3px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* ACTIONS BUTTON */
+.App .actions .buttonAction {
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 50%);
+  color: #ffffff;
+}

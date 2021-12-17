@@ -1,0 +1,66 @@
+.actions_Container {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 50%);
+}
+
+/* FORM */
+.actions_Container form {
+  border: white solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background: #ffffff;
+  padding: 10px;
+}
+
+/* FORM HEADER */
+.actions_Container form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* FORM INPUTS */
+.actions_Container form input {
+  border: 1px solid #c9c9c9;
+  padding: 15px;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  margin: 5px 0;
+}
+
+/* FORM ACTIONS */
+.actions_Container form .form_Actions {
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FORM ACTIONS BUTTON */
+.actions_Container form .form_Actions button {
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+  width: 48%;
+  cursor: pointer;
+  position: relative;
+}
+
+/* FORM ACTIONS BUTTON ADD */
+.actions_Container form .form_Actions .add {
+  background: rgb(152, 243, 152);
+  color: green;
+}
+
+/* FORM ACTIONS BUTTON BACK */
+.actions_Container form .form_Actions .back {
+  background: rgb(243, 152, 152);
+  color: red;
+}

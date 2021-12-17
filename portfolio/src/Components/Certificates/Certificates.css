@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+.certificates_Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CERTIFICATES IMAGE CONTAINER */
+.certificates_Container .certificatesImage_Container {
+  height: 50%;
+  width: 35%;
+}
+
+/* CERTIFICATES IMAGE CONTAINER h1 */
+.certificates_Container .certificatesImage_Container h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  font-family: "Bakbak One", cursive;
+  letter-spacing: 1px;
+  text-shadow: -5px 5px #42006f;
+}
+
+/* CERTIFICATES IMAGE CONTAINER IMAGE */
+.certificates_Container .certificatesImage_Container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* CERTIFICATES DETAILS CONTAINER */
+.certificates_Container .certificatesDetails_Container {
+  height: 90%;
+  width: 35%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.certificates_Container .certificatesDetails_Container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.certificates_Container
+  .certificatesDetails_Container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.certificates_Container
+  .certificatesDetails_Container::-webkit-scrollbar-thumb {
+  background-color: rgba(66, 0, 111, 30%);
+  border-radius: 20px;
+  border: none;
+}
+
+/* CERTIFICATES DETAILS CONTAINER CERTIFICATE */
+.certificates_Container .certificatesDetails_Container .certificate {
+  width: 90%;
+  height: 35%;
+  margin: 30px auto;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(111, 54, 117, 50%);
+  color: #ffffff;
+  box-shadow: 0 0 20px black;
+  overflow: hidden;
+}
+
+/* CERTIFICATES DETAILS CONTAINER CERTIFICATE IMAGE */
+.certificates_Container .certificatesDetails_Container .certificate img {
+  height: 100%;
+  width: 100%;
+}

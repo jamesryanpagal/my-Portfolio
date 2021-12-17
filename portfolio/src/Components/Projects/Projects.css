@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+.projects_Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/* PROJECTS IMAGE CONTAINER */
+.projects_Container .projectsImage_Container {
+  height: 50%;
+  width: 35%;
+}
+
+/* PROJECTS IMAGE CONTAINER h1 */
+.projects_Container .projectsImage_Container h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  font-family: "Bakbak One", cursive;
+  letter-spacing: 1px;
+  text-shadow: -5px 5px #42006f;
+}
+
+/* PROJECTS IMAGE CONTAINER IMAGE */
+.projects_Container .projectsImage_Container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* PROJECTS DETAILS CONTAINER */
+.projects_Container .projectsDetails_Container {
+  height: 90%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT CONTAINER */
+.projects_Container .projectsDetails_Container .viewProject_Container {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT TOGGLE BUTTON */
+.projects_Container .projectsDetails_Container .viewProject_Container button {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  cursor: pointer;
+  background: none;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT TOGGLE BUTTON */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  button:hover {
+  color: #ffffff;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW */
+.projects_Container .projectsDetails_Container .viewProject_Container .view {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgb(65, 65, 65);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT IMAGE */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project
+  img {
+  height: 100%;
+  width: 100%;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project:hover
+  .link_Container {
+  height: 50px;
+  transition: 0.3s;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT LINK CONTAINER */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project
+  .link_Container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT LINK */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project
+  .link_Container
+  a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT LINK CODES */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project
+  .link_Container
+  .codes {
+  background: rgb(51, 51, 51);
+  color: #ffffff;
+}
+
+/* PROJECTS DETAILS VIEW PROJECT VIEW PROJECT LINK OPEN */
+.projects_Container
+  .projectsDetails_Container
+  .viewProject_Container
+  .view
+  .project
+  .link_Container
+  .open {
+  background: rgb(139, 170, 135);
+  color: #ffffff;
+}

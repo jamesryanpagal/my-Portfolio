@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+.skills_Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/* SKILLS IMAGE CONTAINER */
+.skills_Container .skillsImage_Container {
+  height: 50%;
+  width: 35%;
+}
+
+/* SKILLS IMAGE CONTAINER h1 */
+.skills_Container .skillsImage_Container h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  font-family: "Bakbak One", cursive;
+  letter-spacing: 1px;
+  text-shadow: -5px 5px #42006f;
+}
+
+/* SKILLS IMAGE CONTAINER IMAGE */
+.skills_Container .skillsImage_Container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* SKILLS DETAILS CONTAINER */
+.skills_Container .skillsDetails_Container {
+  height: 90%;
+  width: 35%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.skills_Container .skillsDetails_Container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.skills_Container .skillsDetails_Container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.skills_Container .skillsDetails_Container::-webkit-scrollbar-thumb {
+  background-color: rgba(66, 0, 111, 30%);
+  border-radius: 20px;
+  border: none;
+}
+
+/* SKILLS DETAILS CONTAINER SKILL */
+.skills_Container .skillsDetails_Container .skill {
+  width: 60%;
+  margin: 30px auto;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(111, 54, 117, 50%);
+  color: #ffffff;
+}

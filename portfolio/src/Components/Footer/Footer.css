@@ -1,0 +1,15 @@
+.footer_Container {
+  background: rgba(111, 54, 117, 50%);
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_Container .footerDetails i {
+  margin: 0 10px;
+}
+
+.footer_Container .footerDetails span {
+  color: #ffffff;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+.intro_Container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* DETAILS CONTAINER */
+.intro_Container .details_Container {
+  height: 80%;
+  width: 35%;
+  position: relative;
+  position: relative;
+}
+
+/* DETAILS CONTAINER */
+.intro_Container .details_Container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: 3px;
+  background: rgb(66, 0, 111);
+  background: linear-gradient(
+    180deg,
+    rgba(66, 0, 111, 1) 0%,
+    rgba(212, 74, 74, 1) 100%
+  );
+}
+
+/* TEXT CONTAINER */
+.intro_Container .details_Container .text_Container {
+  font-family: "Bakbak One", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+/* TEXT CONTAINER H1 */
+.intro_Container .details_Container .text_Container h1 {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+/* TEXT CONTAINER H1 span */
+.intro_Container .details_Container .text_Container h1 span {
+  text-shadow: -5px 5px #42006f;
+}
+
+/* TEXT CONTAINER p */
+.intro_Container .details_Container .text_Container p {
+  margin-top: 20px;
+  color: #e7e7e7;
+  font-size: 20px;
+}
+
+/* INTRO IMAGES CONTAINER */
+.intro_Container .introImage_Container {
+  height: 80%;
+  width: 50%;
+  position: relative;
+}
+
+/* INTRO IMAGES CONTAINER IMAGE */
+.intro_Container .introImage_Container img {
+  height: 100%;
+  width: 100%;
+}

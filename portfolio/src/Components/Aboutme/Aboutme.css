@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+.aboutme_Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+/* aboutme IMAGE CONTAINER */
+.aboutme_Container .aboutmeImage_Container {
+  height: 50%;
+  width: 35%;
+}
+
+/* aboutme IMAGE CONTAINER h1 */
+.aboutme_Container .aboutmeImage_Container h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  font-family: "Bakbak One", cursive;
+  letter-spacing: 1px;
+  text-shadow: -5px 5px #42006f;
+}
+
+/* aboutme IMAGE CONTAINER IMAGE */
+.aboutme_Container .aboutmeImage_Container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* aboutme DETAILS CONTAINER */
+.aboutme_Container .aboutmeDetails_Container {
+  height: 90%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+/* aboutme DETAILS CONTAINER p */
+.aboutme_Container .aboutmeDetails_Container p {
+  width: 80%;
+  margin: auto;
+  border: rgba(111, 54, 117, 50%) solid;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}

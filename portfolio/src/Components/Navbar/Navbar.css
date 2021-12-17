@@ -1,0 +1,65 @@
+/* NAVBAR CONTAINER */
+.navbar_Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+/* NAVBAR H1 */
+.navbar_Container h1 {
+  background: -webkit-linear-gradient(#42006f, #d44a4a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* NAVBAR UL */
+.navbar_Container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  color: #ffffff;
+}
+
+/* NAVBAR LIST */
+.navbar_Container li {
+  list-style-type: none;
+}
+
+/* NAVBAR LINK */
+.navbar_Container a {
+  display: block;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+/* NAVBAR LINK PSUEDO */
+.navbar_Container a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  opacity: 0;
+  transition: 0.3s;
+  height: 3px;
+}
+
+/* NAVBAR LINK HOVER */
+.navbar_Container a:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  background: #7d5492;
+  height: 3px;
+}
